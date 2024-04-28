@@ -21,7 +21,7 @@
     },
     "PRIVATE": {
       "description": "Set it true if you want to make the bot private, leave Blank for public",
-      "required": public,
+      "required": false,
       "value": "public"
     },
     "PREFIX": {
