@@ -1,5 +1,5 @@
 {
-  "name": "ShizoBot",
+  "name": "zoro-md",
   "description": "WhatsApp Bot Base using Baileys. Written in javascript",
   "keywords": [
     "whatsapp bot",
@@ -10,7 +10,7 @@
   ],
 "env": {
     "DATABASE_URL": {
-      "description": "your mongodb database url",
+      "description": "postgres://zoro_kq8t_user:JgLqOC9GmEk8THKzU8xyoYjAuifH65RU@dpg-comdh76n7f5s73d8r3n0-a.frankfurt-postgres.render.com/zoro_kq8t",
       "required": false,
       "value": ""
       },
@@ -21,28 +21,28 @@
     },
     "PRIVATE": {
       "description": "Set it true if you want to make the bot private, leave Blank for public",
-      "required": false,
-      "value": ""
+      "required": public,
+      "value": "public"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "null"
     },
      "BOT_NAME": {
       "description": "Name of Your Bot",
       "required": false,
-      "value": ""
+      "value": "zoro-bot-v"
     },
 "OWNER_NAME": {
       "description": "owner name of the bot or Your Name",
       "required": false,
-      "value": ""
+      "value": "zoro"
     },
 "OWNER_NUMBER": {
       "description": "Your number or bot owner number",
       "required": false,
-      "value": ""
+      "value": "919778158839"
     },
 "MAKER": {
       "description": "Maker Text that replace MADE WITH ❤️ BY OREO-BOT",
